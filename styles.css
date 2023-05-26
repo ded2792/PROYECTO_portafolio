@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+  text-decoration: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+header {
+  background: #56a19b;
+  width: 100%;
+  position: fixed;
+}
+nav {
+  float: right;
+}
+nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  display: block;
+  padding: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #56a19b;
+}
+nav ul li a:hover {
+  color: #000000;
+}
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #d8d8c5;
+  font-size: 50px;
+  scroll-margin-top: 1px;
+}
+h1 {
+  background-color: #d8d8c5;
+  color: #3f3f3f;
+}
+h1:hover {
+  color: #000000;
+}
+h2 {
+  text-align: center;
+  color: #ffffff;
+  background-color: #56a19b;
+}
+.section-project {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  background-color: #56a19b;
+  text-decoration: none;
+  margin-top: -23px;
+  scroll-margin-top: 90px;
+}
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+  text-decoration: none;
+}
+.project-tile {
+  text-align: center;
+  color: #ffffff;
+}
+#contacto {
+    padding-top: 25px;
+    background-color: #d8d8c5;
+    text-align: center;
+    font-size: 30px;
+  }
